@@ -1,0 +1,328 @@
+body{
+    margin: 0
+    ;
+    
+}
+
+/*styling-general*/
+
+h1, h2, h3, h4, h5, h6, p, li{
+font-family: montserrat;
+}
+h1{
+    font-size: 40pt;
+    color:white;
+    font-weight: bold;
+
+}
+h2{
+    margin: 0;
+    font-size: 30pt;
+}
+p{
+    color: black;
+    font-size: 14pt;
+    margin: 0;
+}
+h3{
+    font-size: 30pt;
+    margin: 0;
+}
+nav{
+    height: 80px;
+    background-color: #5CADE2;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.menu{
+    display: flex;
+}
+
+
+.menu-item{
+    font-size: 16pt;
+list-style: none;
+margin-right: 5%;
+}
+
+.logo{
+    height: 60px;
+    padding: 10px;
+    cursor: pointer;
+}
+.menu-link{
+    text-decoration: none;
+    color: white;
+}
+
+/*headers*/
+.header-img{
+    background-image: url("foto/jesse-van-vliet-VF9AbHHuWrg-unsplash.jpg");
+}
+.mijnervaring-headervideo{
+margin-top: 80px;
+width: 100%;
+
+}
+.certificaten-header{
+    background-image: url("foto/neom-n7SdozgzvyA-unsplash.jpg");
+
+}
+.duikuitrusting-headerimg{
+    background-image: url("foto/PHOTO-2022-08-12-04-14-40.jpg");
+}
+.header-img, .mijnervaring-headerimg, .duikuitrusting-headerimg, .certificaten-header{
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-top: 80px;
+   text-align: center;
+
+}
+/*body*/
+
+
+
+.kolom1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 5% 10%;
+    align-items: center;
+}
+
+.foto1{
+width: 100%;
+border-radius: 10px;
+}
+
+.text-kolom1{
+margin-right: 5%;
+}
+
+
+/*kolom2*/
+
+.kolom2{
+display: grid;
+grid-template-columns: 50% 50%;
+padding: 5% 10%;
+background-color: #5CADE2;
+}
+
+.icoon-box{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+.icoon{
+    width: 40%;
+}
+
+
+/*kolom3*/
+
+.kolom3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 10% 10%;
+}
+.foto3{
+    width: 90%;
+    border-radius: 10px;
+}
+
+.text-kolom3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.button-ervaring{
+    width: 150px;
+    font-family: montserrat;
+    font-size: 12pt;
+    margin-top: 1%;
+    padding: 10px 20px;
+    color: white;
+    background-color: #5CADE2;
+    border: none;
+    border-radius: 10px;
+}
+
+.button-ervaring:hover{
+    background-color: #a3c4d9;
+    cursor: pointer;
+}
+
+
+
+/*general response*/
+@media only screen and (max-width: 650px){
+    h1{
+        font-size: 25pt;
+    }
+h2{
+    font-size: 20pt;
+}
+h3{
+    font-size: 18pt;
+
+}
+li.menu-item{
+    font-size: 10pt;
+}
+}
+
+
+
+/*homepage response*/
+
+@media only screen and (max-width: 1000px){
+    .kolom1, .kolom2, .kolom3{
+        grid-template-columns: 100%;
+    }
+.text-kolom1{
+    margin: 0 0 5% 0;
+}
+.foto-kolom1{
+    display: none;
+}
+.text-kolom3{
+    margin: 5% 0 0 0;
+}
+    .icoon{
+        width: 20%;
+    }
+    .icoon-box{
+        margin: 0 0 5% 0;
+    }
+}
+
+
+
+/*Mijn ervaring*/
+
+
+.mijn-ervaring-kolom1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0% 10%;
+    align-items: center;
+}
+
+
+@keyframes bewegendebel {
+  0% {
+    transform: translateY(0); 
+  }
+  100% {
+    transform: translateY(-100%); 
+  }
+}
+
+.bubbel-animatie {
+  animation: bewegendebel 4s linear infinite; 
+}
+
+
+
+/*kolom2 ervaring*/
+
+.kolom2-mijnervaring{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 10% 5%;
+    align-items: center;
+}
+
+
+
+.kolom2-mijnervaring-foto{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.kolom2-foto-mijn-ervaring{
+width: 80%;
+
+}
+
+
+
+
+
+/*Mijn ervaring response*/
+@media only screen and (max-width: 650px){
+
+    .mijn-ervaring-kolom1, .kolom2-mijnervaring{
+        grid-template-columns: 100%;
+    }
+
+.kolom2-mijnervaring-text, .text-kolom1-mijn-ervaring{
+    margin-top: 10%;
+}
+.kolom2-foto-mijn-ervaring{
+    width: 100%;
+}
+
+}
+
+
+
+
+
+
+
+
+/*duikuitsrusting*/
+
+.kolom1-duikuitrusting{
+    margin: 10% 10%;
+   text-align: center;
+}
+
+.kolom2-duikuitrusting{
+
+    margin: 5% 10%;
+}
+
+
+/*duikdcertificaten*/
+
+.kolom1-certificaten{
+    display: grid;
+    grid-template-columns: 70% 30%;
+margin: 5% 10%;
+}
+.text-kolom1-certificaten{
+    margin-right: 10%;
+}
+.padi-logo{
+    width: 100%;
+}
+
+.kolom3-certificaten{
+    margin: 5% 10%;
+}
+
+
+@media only screen and (max-width: 650px){
+    .kolom1-certificaten{
+        grid-template-columns: 100%;
+    }
+}

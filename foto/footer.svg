@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 3840 962" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-5983,-8165)">
+        <g id="Artboard3" transform="matrix(1,0,0,1,-0.18846,-0.706925)">
+            <rect x="5983.19" y="8165.71" width="3840" height="961.076" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="5983.19" y="8165.71" width="3840" height="961.076"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1,1.42169e-33,2.10865e-33,1,5983.38,1449.67)">
+                    <rect x="0" y="6716.74" width="3840" height="961.076" style="fill:rgb(179,214,242);"/>
+                </g>
+                <g transform="matrix(1.34399,-1.90203e-32,-1.12362e-33,1.34399,5523.77,-904.267)">
+                    <text x="501.078px" y="7010.24px" style="font-family:'Montserrat-Bold', 'Montserrat';font-weight:700;font-size:90px;fill:rgb(6,52,79);">Gemaakt door<tspan x="1176.26px " y="7010.24px ">:</tspan></text>
+                    <text x="501.078px" y="7070.24px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:60px;fill:rgb(6,52,79);">Sam Sminia</text>
+                </g>
+                <g transform="matrix(2.17653e-16,-3.55455,1,6.12323e-17,5983.38,9127.49)">
+                    <g transform="matrix(1.72265e-17,1,-0.28133,6.12323e-17,2160,-4.70131e-13)">
+                        <path d="M4407.28,7461.52C4407.28,7461.52 4062.11,7467.65 3654.99,7440.02C3362.26,7420.16 3025.77,7362.01 2817.53,7369.1C2419.41,7382.65 2069.38,7516.74 1785,7516.74C1568.1,7516.74 1177.08,7429.95 888.791,7409.05C385.475,7372.56 -316.398,7476.38 -316.398,7476.38L-0,7677.82L3840,7677.82L4407.28,7461.52Z" style="fill:rgb(92,173,226);"/>
+                    </g>
+                    <g transform="matrix(1.72265e-17,1,-0.28133,6.12323e-17,2160,-4.70131e-13)">
+                        <path d="M4407.28,7461.52C4407.28,7461.52 4079.5,7532.2 3671.55,7523.16C3397.26,7517.08 3251.76,7619.09 2818.99,7458.33C2445.57,7319.62 2329.76,7385.9 1664.3,7429.51C1447.86,7443.7 844.227,7544.06 555.942,7523.16C52.626,7486.67 -316.398,7476.38 -316.398,7476.38L-0,7677.82L3840,7677.82L4407.28,7461.52Z" style="fill:rgb(27,103,151);"/>
+                    </g>
+                    <g transform="matrix(1.72265e-17,1,-0.28133,6.12323e-17,2160,-4.70131e-13)">
+                        <path d="M4407.28,7461.52C4407.28,7461.52 4118.44,7578.87 3710.49,7569.84C3436.2,7563.76 2970.86,7683.92 2538.09,7523.16C2318.06,7441.43 1944.55,7557.56 1579,7566.46C1324.17,7572.66 1098.43,7458.42 825.075,7476.34C608.635,7490.52 -340.273,7656.46 -316.398,7566.99L-0,7677.82L3840,7677.82L4407.28,7461.52Z" style="fill:rgb(16,60,87);"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
